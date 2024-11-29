@@ -1,0 +1,101 @@
+.App {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Abel";
+}
+
+header {
+  width: 100%;
+  display: flex;
+  background-color: #282c34;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #282c34;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  justify-self: flex-end;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+.tituloHeader {
+  font-size: 2.0em;
+  margin-left: 200px;
+}
+
+.linksHeader {
+  margin-right: 200px;
+}
+
+.tituloHome {
+  margin-left: 400px;
+  font-size: 2.0em;
+}
+
+.resultsHome {
+  margin-top: 100px;
+  margin-right: 600px;
+  font-size: 2.0em;
+}
+
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+#tabela {
+  width: 100%;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+#header_tabela,
+.lista {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  gap: 200px;
+}
+
+
+.codigo,
+.descricao,
+.entrada,
+.saida,
+.total {
+  flex: 1;
+  text-align: center;
+}
+
+.lista:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.lista:hover {
+  background-color: #f1f1f1;
+}
+
+.tituloTransacoes {
+  margin-left: 500px;
+}
